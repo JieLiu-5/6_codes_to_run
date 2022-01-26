@@ -5,9 +5,9 @@ To run "step-4.cc" successfully, the header files in the file folder "1_external
     1. timer.h is located in include/deal.II/base
     2. the rest are in include/deal.II/numerics
 
-To run the source file, type 
+To run the source file, we may type 
 make -j4; ./step-4 1e-3 2 0 2 1
-in the command line
+in the command line.
 
 The arguments following ./step-4 denote the parameter of the solution, element degree,  method for creating the mesh, grid parameter, and total number of refinements, respectively.
 For the third argument, "0" denotes creating the mesh by refining the unit interval(1D)/square(2D) with a factor 2; "1" denotes using a certain numer of DoFs.
