@@ -97,7 +97,7 @@ private:
   Triangulation<dim> triangulation;
   
   AffineConstraints<double> constraints;                            // for adaptive mesh refinement
-  unsigned int is_constraints_used = 1;
+  unsigned int is_constraints_used = 0;
   
   FE_Q<dim>          fe;
   DoFHandler<dim>    dof_handler;
