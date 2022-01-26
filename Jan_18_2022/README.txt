@@ -1,14 +1,14 @@
 The version of Deal.II is 9.2.0.
 
 In the file folder "0_source", the source file, which is "step-4.cc", and two auxiliary header files are placed.
-We should put them in the file folder "step-4".
+We should put them in the file folder "step-4" in the deal.II structure.
 
 In the file folder "1_external", there are four header files.
 They are to replace those in the corresponding file folders after installation.
-The locations of these header files can be found below.
-    1. timer.h is located in include/deal.II/base
-    2. the rest are in include/deal.II/numerics
-These header files work the same as the version in May last year.
+The locations of these header files are:
+    1. timer.h located in include/deal.II/base
+    2. the rest in include/deal.II/numerics
+These header files are the same with the version in May last year.
 
 To run the code successfully, we may try to type 
 make -j4; ./step-4 1e-3 2 0 2 1
