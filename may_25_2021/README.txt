@@ -12,7 +12,6 @@ in the command line
 The arguments following ./step-4 denote the parameter of the solution, element degree,  method for creating the mesh, grid parameter, and total number of refinements, respectively.
 For the third argument, "0" denotes creating the mesh by refining the unit interval(1D)/square(2D) with a factor 2; "1" denotes using a certain numer of DoFs.
 For the fourth argument, it denotes the refinement level when the second argument is "0" and the number of DoFs when the second argument is "1".
-For example, "0 2" for the last two arguments denotes the mesh is created by globally refining an unit interval/square with a factor 2 two times.
 
 Experiments to run:
 ./step-4 1e-3 5 0 10 1
